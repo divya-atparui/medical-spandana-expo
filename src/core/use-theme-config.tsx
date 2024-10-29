@@ -7,15 +7,18 @@ import { useColorScheme } from 'nativewind';
 
 import colors from '@/ui/colors';
 
+
+
 const DarkTheme: Theme = {
   ..._DarkTheme,
   colors: {
     ..._DarkTheme.colors,
-    primary: colors.primary[200],
-    background: colors.charcoal[950],
-    text: colors.charcoal[100],
-    border: colors.charcoal[500],
-    card: colors.charcoal[850],
+    primary: colors.primary[400], // Slightly lighter shade for better visibility in dark mode
+    background: colors.gray[900], // Dark background, but not pure black
+    text: colors.gray[100], // Light text for readability
+    border: colors.gray[700], // Subtle borders
+    card: colors.gray[800], // Slightly lighter than the background for contrast
+    notification: colors.primary[400], // Using primary color for notifications
   },
 };
 
