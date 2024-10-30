@@ -36,3 +36,16 @@ export const loadSelectedTheme = () => {
     colorScheme.set(theme as ColorSchemeType);
   }
 };
+
+// Define color constants
+const LIGHT_MODE = '#002766';  // A deep, soothing blue for light mode
+const DARK_MODE = '#57c5b6';  
+
+export function useDarkModeColor(lightColor: string = LIGHT_MODE, darkColor: string = DARK_MODE) {
+  const { colorScheme } = useColorScheme();
+
+  const isDark = colorScheme === 'dark';
+  const modeColor = isDark ? darkColor : lightColor;
+
+  return {modeColor, isDark};
+}
