@@ -92,20 +92,7 @@ export default function TabLayout() {
         }}
       />
 
-      <Tabs.Screen
-        name="doctors"
-        options={{
-          title: 'Doctors',
-          headerShown: false,
-          tabBarIcon: ({  size, focused }) => (
-            <Ionicons
-              name={focused ? 'search' : 'search-outline'}
-              size={size}
-              color={darkModeColor}
-            />
-          ),
-        }}
-      />
+
 
       <Tabs.Screen
         name="appointments"

@@ -21,7 +21,7 @@ export const ThemeToggle = () => {
       className="bg-primary size-10 flex-row items-center justify-center rounded-full"
     >
       <Ionicons
-        name={selectedTheme === 'light' ? 'sunny' : 'moon'}
+        name={selectedTheme === 'light' ? 'moon' : 'sunny'}
         size={24}
         color={darkModeColor}
         className="text-primary-foreground"

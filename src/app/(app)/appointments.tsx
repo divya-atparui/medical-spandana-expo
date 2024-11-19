@@ -7,7 +7,7 @@ export default function PatientAppointments() {
     <>
    <View>
     <Text>
-      Hello Doctors
+      Hello Appointments
     </Text>
    </View>
     </>
