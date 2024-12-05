@@ -1,49 +1,71 @@
+# Medical Mobile App
+
 <h1 align="center">
   <img alt="logo" src="./assets/icon.png" width="124px" style="border-radius:10px"/><br/>
-Mobile App </h1>
+</h1>
 
-> This Project is based on [Obytes starter](https://starter.obytes.com)
+## 📱 What is This App?
 
-## Requirements
+This is a mobile application designed to help medical professionals and patients manage healthcare information more effectively. The app provides a user-friendly interface for accessing medical records, scheduling appointments, and managing patient care.
 
-- [React Native dev environment ](https://reactnative.dev/docs/environment-setup)
-- [Node.js LTS release](https://nodejs.org/en/)
-- [Git](https://git-scm.com/)
-- [Watchman](https://facebook.github.io/watchman/docs/install#buildinstall), required only for macOS or Linux users
-- [Pnpm](https://pnpm.io/installation)
-- [VS Code Editor](https://code.visualstudio.com/download) ⚠️ Make sure to install all recommended extension from `.vscode/extensions.json`
+## ✨ Key Features
 
-## 👋 Quick start
+- **Secure Login**: Protected access to medical information
+- **Patient Records**: Easy access to medical history and documents
+- **Appointment Management**: Schedule and track medical appointments
+- **User-Friendly Interface**: Simple and intuitive design for all users
 
-Clone the repo to your machine and install deps :
+## 🚀 Getting Started
+
+### For Users
+
+The app is currently in development and will be available on the App Store (iOS) and Play Store (Android) soon. Stay tuned for updates!
+
+### For Developers
+
+This project uses modern mobile development technologies to ensure the best performance and user experience.
+
+#### Technical Requirements
+
+- **Essential Software**:
+  - [Node.js](https://nodejs.org/en/) (Latest LTS version)
+  - [React Native](https://reactnative.dev/docs/environment-setup) development environment
+  - [Git](https://git-scm.com/) for version control
+  - [Pnpm](https://pnpm.io/installation) package manager
+- **Additional Tools**:
+  - [VS Code](https://code.visualstudio.com/download) (Recommended editor)
+  - [Watchman](https://facebook.github.io/watchman/docs/install#buildinstall) (Required for macOS/Linux)
+
+#### Setup Instructions
+
+1. Clone the repository:
 
 ```sh
 git clone https://github.com/user/repo-name
-
 cd ./repo-name
+```
 
+2. Install dependencies:
+
+```sh
 pnpm install
 ```
 
-To run the app on ios
+3. Start the app:
 
-```sh
-pnpm ios
-```
+- For iOS:
+  ```sh
+  pnpm ios
+  ```
+- For Android:
+  ```sh
+  pnpm android
+  ```
 
-To run the app on Android
+## 🤝 Contributing
 
-```sh
-pnpm android
-```
+We welcome contributions! If you'd like to help improve this app, please reach out to the development team.
 
-## ✍️ Documentation
+## 📄 License
 
-- [Rules and Conventions](https://starter.obytes.com/getting-started/rules-and-conventions/)
-- [Project structure](https://starter.obytes.com/getting-started/project-structure)
-- [Environment vars and config](https://starter.obytes.com/getting-started/environment-vars-config)
-- [UI and Theming](https://starter.obytes.com/ui-and-theme/ui-theming)
-- [Components](https://starter.obytes.com/ui-and-theme/components)
-- [Forms](https://starter.obytes.com/ui-and-theme/Forms)
-- [Data fetching](https://starter.obytes.com/guides/data-fetching)
-- [Contribute to starter](https://starter.obytes.com/how-to-contribute/)
+This project is based on [Obytes starter](https://starter.obytes.com) and is licensed under the MIT License.
